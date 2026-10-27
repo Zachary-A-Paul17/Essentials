@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: Unit 7 Lab and Challenge.ma
-//Last modified: Tue, Oct 27, 2026 12:13:34 AM
+//Last modified: Tue, Oct 27, 2026 12:27:44 AM
 //Codeset: 1252
 file -rdi 1 -ns "Sofa_Unit_5" -rfn "Sofa_Unit_5RN" -op "v=0;" -typ "mayaAscii"
 		 "C:/DAGV 1200 - Files/Essentials/DAGV1100and1200/Maya//scenes/Sofa Unit 5.ma";
@@ -19,7 +19,7 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "6863CDA5-494E-FE1C-9720-62A45FC4C1EB";
+fileInfo "UUID" "E5766160-4B39-3E2B-3D79-4EACE6A8029E";
 createNode transform -s -n "persp";
 	rename -uid "30A2842D-4A0C-94A2-0AF3-F98DD31E021C";
 	setAttr ".v" no;
@@ -103407,7 +103407,7 @@ createNode nurbsSurface -n "revolvedSurfaceShape1" -p "revolvedSurface1";
 		;
 createNode transform -n "persp1";
 	rename -uid "C27B1591-4597-3F7B-1673-CA8443FA6787";
-	setAttr ".t" -type "double3" 162.6568746597932 100.62908833788659 161.32696997170763 ;
+	setAttr ".t" -type "double3" 242.24181186432131 153.94650709634053 254.69161446908802 ;
 	setAttr ".r" -type "double3" -25.064389682758797 44.200000000004728 -2.2182365887201345e-15 ;
 	setAttr ".rp" -type "double3" -9.7909432092927175e-15 1.1889002468426873e-14 4.4758597528195271e-14 ;
 	setAttr ".rpt" -type "double3" -3.5764650918923842e-14 -2.8377768124242427e-14 -3.5975661887206724e-14 ;
@@ -103418,7 +103418,7 @@ createNode camera -n "persp1Shape" -p "persp1";
 	setAttr ".ncp" 0.03937007874015748;
 	setAttr ".fcp" 3937.0078740157478;
 	setAttr ".fd" 1.9685039370078738;
-	setAttr ".coi" 201.94269901110712;
+	setAttr ".coi" 335.42002957075738;
 	setAttr ".ow" 3.9370078740157477;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
@@ -103558,7 +103558,7 @@ createNode mesh -n "nurbsToPolyShape11" -p "nurbsToPoly11";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
 createNode fosterParent -n "Sofa_Unit_5RNfosterParent1";
-	rename -uid "9CEAB003-4560-F4D0-E39D-DF93D4CFEEC9";
+	rename -uid "AAB8AACE-48D7-9697-DF9E-399AA54D373B";
 createNode mesh -n "Sofa_Unit_5:polySurfaceShape4" -p "Sofa_Unit_5RNfosterParent1";
 	rename -uid "A5020DC3-4B02-D783-3BBF-EBB3BE516597";
 	setAttr -k off ".v";
